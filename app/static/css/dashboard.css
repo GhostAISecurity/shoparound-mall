@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background: #0A0C12; color: #fff; margin: 0; }
+header { padding: 20px; text-align: center; border-bottom: 1px solid #222; }
+#categoryFilters { display: flex; gap: 8px; flex-wrap: wrap; padding: 16px; }
+#categoryFilters button { padding: 8px 16px; border-radius: 20px; border: 1px solid #F5B041; background: transparent; color: #fff; cursor: pointer; }
+#categoryFilters button:hover { background: #F5B041; color: #0A0C12; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; padding: 16px; }
+.product-card { background: #11161F; border-radius: 12px; padding: 16px; border: 1px solid #202837; }
+.product-name { font-weight: 600; }
+.product-price { color: #F5B041; margin-top: 4px; }
+.product-store { color: #94a3b8; font-size: 0.8rem; margin-top: 4px; }

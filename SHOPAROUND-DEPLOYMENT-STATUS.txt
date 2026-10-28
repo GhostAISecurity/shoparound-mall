@@ -1,0 +1,17 @@
+ShopAround repair report
+Generated: 20261028-164509
+
+Frontend build:
+- npm run build completed if this report was generated after the build.
+- Vite output directory: dist/
+
+Important deployment requirements:
+- Do not expose the development server as a production server.
+- Do not commit .env or secrets.
+- The original Flask backend must be separately configured and tested.
+- Do not use local SQLite on ephemeral hosting for permanent customer data.
+- Configure managed PostgreSQL, backups, migrations, health checks and restore tests.
+- Implement server-side authentication and row-level/account ownership checks.
+- Configure Cloudflare DNS only after the final Render service hostname is known.
+- Do not point sedibagroup.co.za or www.sedibagroup.co.za to ShopAround.
+- Remove tracked node_modules from Git only in a reviewed commit.

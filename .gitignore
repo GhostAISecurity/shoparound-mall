@@ -1,0 +1,9 @@
+
+# Installed dependencies (keep package manifests and lockfiles)
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.db-wal
+*.db-shm
